@@ -3,7 +3,7 @@ package Soal3;
 abstract class Sortable {
     public abstract int compare(Sortable b);
     
-    // Algoritma Shell Sort untuk mengurutkan array Sortable
+   
     public static void shell_sort(Sortable[] a) {
         int n = a.length;
         for (int gap = n / 2; gap > 0; gap /= 2) {

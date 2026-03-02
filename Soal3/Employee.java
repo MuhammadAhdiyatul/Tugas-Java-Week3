@@ -1,6 +1,6 @@
 package Soal3;
 
-class Employee extends Sortable { // Mewarisi abstract class Sortable
+class Employee extends Sortable { 
     private String name;
     private double salary;
     private int hireday;
@@ -27,7 +27,7 @@ class Employee extends Sortable { // Mewarisi abstract class Sortable
         return hireyear;
     }
 
-    // Implementasi metode abstrak dari Sortable
+  
     @Override
     public int compare(Sortable b) {
         Employee eb = (Employee) b;
