@@ -19,18 +19,18 @@ public class Shape {
      }
 
      public void setColor(String color){
-        rhis.color = color;
+        this.color = color;
      }
 
      public boolean isFilled(){
         return filled;
      }
 
-     public void setFilledI(boolean filled){
+     public void setFilled(boolean filled){
         this.filled = filled;
      }
 
      public String toString(){
         String isFilledText = isFilled() ? "filled" : "not filled";
-        return "A Shape with color of" + color + "and" + isFilledText;     }
+        return "A Shape with color of " + color + " and " + isFilledText;     }
 }
