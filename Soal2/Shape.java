@@ -4,5 +4,33 @@ public class Shape {
      private String color;
      private boolean filled;
 
-     public Shape
+     public Shape(){
+        this.color = "green";
+        this.filled = true;
+     }
+
+     public Shape(String color, boolean filled){
+        this.color = color;
+        this.filled = filled;
+     }
+
+     public String getColor(){
+        return color;
+     }
+
+     public void setColor(String color){
+        rhis.color = color;
+     }
+
+     public boolean isFilled(){
+        return filled;
+     }
+
+     public void setFilledI(boolean filled){
+        this.filled = filled;
+     }
+
+     public String toString(){
+        String isFilledText = isFilled() ? "filled" : "not filled";
+        return "A Shape with color of" + color + "and" + isFilledText;     }
 }
