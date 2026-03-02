@@ -30,6 +30,6 @@ public class Cylinder extends Circle {
 
     @Override
     public String toString(){
-        return " Cylinder: subclass of" + super.toString() + " height=" + height;
+        return " Cylinder: subclass of " + super.toString() + " height=" + height;
     }
 }
